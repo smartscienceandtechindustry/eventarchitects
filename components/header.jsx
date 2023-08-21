@@ -5,7 +5,7 @@ function LetTalkBtn() {
   return (
     <nav>
       <Link href="/contact">
-        <button className="bg-red-500 text-white p-2 px-6 rounded-xl">
+        <button className="bg-red-500 text-xs lg:text-xl text-white p-1 px-6 rounded-xl">
           LET&apos;S TALK
         </button>
       </Link>
@@ -93,7 +93,7 @@ export default function Header() {
               </svg>
             </button>
           </div>
-          <nav className=" flex justify-end lg:hidden mt-10">
+          <nav className=" flex justify-end lg:hidden mt-2">
             <LetTalkBtn />
           </nav>
         </div>
