@@ -93,7 +93,7 @@ export default function Header() {
               </svg>
             </button>
           </div>
-          <nav className=" flex justify-end lg:hidden mt-2">
+          <nav className=" flex justify-center lg:hidden mt-2">
             <LetTalkBtn />
           </nav>
         </div>

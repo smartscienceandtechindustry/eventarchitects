@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <form
         action=""
-        className="mt-60 max-w-xl m-auto bg-white p-10 bg-opacity-50"
+        className="mt-60 max-w-xl m-auto bg-white p-4 bg-opacity-50"
       >
         <div className="flex flex-col space-y-5 my-10">
           <nav className="flex flex-col">
