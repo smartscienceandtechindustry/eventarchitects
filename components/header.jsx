@@ -41,6 +41,14 @@ export default function Header() {
             </div>
             <nav className=" flex w-full absolute justify-evenly flex-col bg-white space-y-4 py-4">
               <Link
+                href="/"
+                onClick={() => {
+                  setMenu(false);
+                }}
+              >
+                Home
+              </Link>
+              <Link
                 href="/services"
                 onClick={() => {
                   setMenu(false);
@@ -93,7 +101,7 @@ export default function Header() {
               </svg>
             </button>
           </div>
-          <nav className=" flex justify-center lg:hidden mt-2">
+          <nav className=" flex justify-end lg:hidden mt-5">
             <LetTalkBtn />
           </nav>
         </div>
