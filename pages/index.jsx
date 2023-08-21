@@ -17,7 +17,7 @@ export default function Home() {
       <div className="relative">
         <img src="display1.webp" alt="" />
         <nav className="absolute h-full w-full top-0 flex justify-center items-center  ">
-          <p className=" bg-black text-white p-10 bg-opacity-60 rounded-xl max-h-36 overflow-hidden text-sm md:text-2xl">
+          <p className="  md:mx-20 bg-black text-white p-10 bg-opacity-60 md:rounded-xl max-h-36 overflow-hidden text-sm md:text-2xl">
             Welcome to the event architects, your premier destination for
             creating unforgettable moments and exceptional celebrations.
           </p>
