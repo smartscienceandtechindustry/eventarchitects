@@ -23,8 +23,8 @@ export default function Home() {
           </p>
         </nav>
       </div>
-      <Services />
       <About />
+      <Services />
     </>
   );
 }

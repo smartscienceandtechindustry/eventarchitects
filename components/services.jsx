@@ -96,7 +96,7 @@ export default function Services() {
             <h1 className="font-bold  mt-10 text-center mb-5 md:mt-0  font-serif text-xs md:text-xl">
               Unforgettable Graduation Ceremonies and Celebrations
             </h1>
-            <p className="font-serif">
+            <p className="font-serif text-xs md:text-sm">
               Our Graduation service offers a dignified and memorable experience
               for graduates and their families. With meticulous attention to
               detail, we ensure that the ceremony is executed flawlessly, from
@@ -111,7 +111,7 @@ export default function Services() {
         <div className="flex mt-20 justify-between flex-col md:flex-row  bg-blue-100 p-4 py-20">
           <div className="flex-1 flex flex-col justify-start pr-5 lg:justify-center">
             <h1 className="font-bold  mt-10 text-center mb-5 md:mt-0  font-serif text-xs md:text-xl"></h1>
-            <p className="font-serif">
+            <p className="font-serif text-xs md:text-sm">
               Our service offers a comprehensive range of solutions tailored to
               meet the unique needs of our clients. With a focus on
               professionalism and attention to detail, we strive to provide a
