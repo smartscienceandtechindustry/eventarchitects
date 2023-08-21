@@ -32,7 +32,7 @@ export default function Contact() {
           </nav>
           <nav className="flex flex-col">
             <label htmlFor="" className="text-sm font-bold mb-2 text-gray-700 ">
-              email
+              Email
             </label>
             <input
               type="name"
