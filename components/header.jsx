@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { useState } from "react";
-
+import ReactWhatsapp from "react-whatsapp";
 function LetTalkBtn() {
   return (
     <nav>
-      <Link href="/contact">
+      <Link href="https://wa.me/255713477673?text=">
         <button className="bg-red-500 text-xs lg:text-xl text-white p-1 px-6 rounded-xl">
           LET&apos;S TALK
         </button>
@@ -26,8 +26,8 @@ export default function Header() {
         {!menu ? (
           <></>
         ) : (
-          <div className="p-2 w-full ">
-            <div className="flex justify-between ">
+          <div className=" w-full ">
+            <div className="flex justify-between  p-2">
               <Link href="/">
                 <nav className="text-red-500 font-mono ">Event Architects</nav>
               </Link>
@@ -39,7 +39,7 @@ export default function Header() {
                 close
               </button>
             </div>
-            <nav className=" flex w-full absolute justify-evenly flex-col bg-white space-y-4 py-4">
+            <nav className=" flex w-full absolute justify-evenly flex-col bg-slate-100 space-y-4 p-2 py-4 ">
               <Link
                 href="/"
                 onClick={() => {

@@ -39,12 +39,14 @@ export default function Services() {
           </nav>
           <nav className="lg:max-w-md xl:max-w-lg  bg-blue-100 p-10 rounded-xl">
             <h1 className="font-bold mb-2 text-xs md:text-xl font-serif">
-              Exquisite Birthday Celebrations that Last Forever
+              Elevating Special Occasions
             </h1>
             <nav className="font-serif text-xs md:text-md">
-              Celebrate your loved ones with our formal and elegant birthday
-              service, ensuring a memorable day filled with joy and special
-              moments.
+              we are dedicated to elevating your special occasions into
+              cherished memories that stand the test of time. With meticulous
+              attention to detail and a passion for excellence, let us transform
+              your event into an experience that you and your guests will
+              treasure forever.
             </nav>
           </nav>
         </div>
