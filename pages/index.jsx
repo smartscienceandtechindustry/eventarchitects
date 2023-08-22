@@ -10,14 +10,16 @@ export default function Home() {
   return (
     <>
       <div className="bg-white">
-        <nav className="max-w-screen-md m-auto pt-40">
-          <img src="/logo1.jpg" alt="" />
+        <nav className="max-w-screen-md  m-auto  pt-40">
+          <img src="/logo1.jpg" alt="" cla />
         </nav>
       </div>
       <div className="relative">
-        <img src="display1.webp" alt="" />
+        <nav className="flex justify-center">
+          <img src="display1.webp" alt="" />
+        </nav>
         <nav className="absolute h-full w-full top-0 flex justify-center items-center  ">
-          <p className="  md:mx-20 bg-black text-white p-10 bg-opacity-60 md:rounded-xl max-h-36 overflow-hidden text-sm md:text-2xl">
+          <p className="  md:mx-20 bg-black text-white p-10  max-w-screen-xl bg-opacity-60 md:rounded-xl max-h-36 overflow-hidden text-sm md:text-2xl">
             Welcome to the event architects, your premier destination for
             creating unforgettable moments and exceptional celebrations.
           </p>
